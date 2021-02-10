@@ -1,0 +1,55 @@
+.bg-1 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    width: 100%;
+    overflow: hidden;
+}
+.bg-2 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    width: 100%;
+    overflow: hidden;
+}
+.bg-3 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.header-text {
+    display: table-cell;
+    height: 600px;
+    vertical-align: middle;
+}
+
+.header-text h1 {
+    font-size: 400%;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 125%;
+    line-height: 150%;
+    color: #fff;
+    letter-spacing: .5px;
+    margin-bottom: 5%;
+}
+
+.header-text a {
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}

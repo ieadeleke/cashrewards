@@ -1,0 +1,46 @@
+.profile .left {
+    position: fixed;
+    width: 20%;
+    top: 0;
+    float: left;
+    min-height: 100vh;
+    background: #171717;
+    height: 100%;
+}
+
+.profile .left .logo {
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+.profile-nav ul li {
+    padding: 15px 0;
+}
+
+.profile-nav ul li a {
+    color: #787471;
+    font-size: 115%;
+    text-decoration: none;
+}
+
+.profile-nav ul li a.active {
+    color: #fff;
+    font-size: 115%;
+    text-decoration: none;
+}
+
+.profile-nav ul li a i {
+    margin-right: 10px;
+}
+
+
+.profile .right {
+    width: calc(100 - 20%);
+    margin-left: 20%;
+}
+
+
+.flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+}

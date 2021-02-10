@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/profile.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <title>React App</title>
+</head>
+
+<body>
+
+    <div class="profile">
+        <div class="">
+            <div class="left">
+                <div class="contain">
+                    <div class="center-text">
+                        <a href="index.html"><img src="images/sec-logo.svg" alt="logo" class="logo"></a>
+                    </div>
+                    <div class="profile-nav">
+                        <ul>
+                            <li><a href="" class="active"><i class="uil uil-create-dashboard"></i> Home</a></li>
+                            <li><a href=""><i class="uil uil-transaction"></i> Transactions</a></li>
+                            <li><a href=""><i class="uil uil-money-withdrawal"></i> Withdrawals</a></li>
+                            <li><a href=""><i class="uil uil-invoice"></i> Payments</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="contain">
+                    <div class="grid-2">
+                        <div>
+                            <canvas id="barChart"></canvas>
+                        </div>
+                        <div>
+                            <canvas id="lineChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+
+</html>

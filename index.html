@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/full-page-scroll.min.css">
+    <link rel="stylesheet" href="css/homepage.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <title>React App</title>
+</head>
+
+<body>
+
+    <div id="main" class="scroll-container">
+        <section class="bg-1">
+            <div class="header-text">
+                <div class="contain">
+                    <h1>There's a new way to shop in town.</h1>
+                    <p>Get personalized inspiration, exclusive deals and pay how you prefer. Only in the Klarna app.</p>
+                    <a href="credit.html" class="bg-white">Start Shopping</a>
+                </div>
+            </div>
+        </section>
+        <section class="bg-2">
+            <div class="header-text">
+                <div class="contain">
+                    <h1>Get Credit to shop different products.</h1>
+                    <p>Get personalized inspiration, exclusive deals and pay how you prefer. Only in the Klarna app.</p>
+                    <a href="portfolio.html" class="bg-white">Get Credit</a>
+                </div>
+            </div>
+        </section>
+        <section class="bg-3">
+            <div class="header-text">
+                <div class="contain">
+                    <h1>Manage your transactions portfolio.</h1>
+                    <p>Get personalized inspiration, exclusive deals and pay how you prefer. Only in the Klarna app.</p>
+                    <a href="signup.html" class="bg-white">Start Shopping</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/full-page-scroll.min.js"></script>
+    <script type="text/javascript">
+        new fullScroll({
+            mainElement: "main",
+            displayDots: true,
+            dotsPosition: "left",
+            animateTime: 0.7,
+            animateFunction: "ease",
+        });
+    </script>
+</body>
+
+</html>
